@@ -10,7 +10,7 @@
         <style> 
 
             p {
-                color: maroon;
+                color: #808080;
                 font-size: 16px;
                 font-family: 'Open Sans', serif;
                 width: 50%;
@@ -22,7 +22,7 @@
                 border: solid lightskyblue 2px;
             }
             .book {
-                border: 4px dashed goldenrod;
+                border: 8px inset goldenrod;
                 font-family: Georgia, serif;
                 font size: 16px;
                 color: green;
@@ -31,10 +31,11 @@
                 border: 1px solid gray;
                 padding-left: 10px;
                 padding-bottom: 10px;
-                width: 25%;
+                width: 40%;
             }
             .bar_label {
                 color: red;
+                text-align: left;
             }
             #longest {
                 width: 300px;
@@ -76,14 +77,14 @@
     
         <h2> ~ Challenge: Why is my text maroon? ~</h2>
         <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
-        <p style= "color: #A9A9A9;">My text is (not so dark) gray.</p>
+        <p>My text is gray :D</p>
 
 
         <h2>My favorite meme</h2>
         <!-- Include: "large_wink.png" as an image -->
         <!-- Tags to use: <img> -->
         <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
-        <p> <img src="large_wink.png" alt="image of a woman winking with a caption" height="300px" width="400px"> </p>
+        <p> <img src="gossip_girl.png" alt="image of the gossip girl main character posing with the caption go piss girl" height="300px" width="400px"> </p>
 
     
         <h2>Why I'm a great student</h2>
@@ -120,31 +121,24 @@
         <h2> ~ Challenge: Read my poetry ~</h2>
         <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
         <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
-        <p> Wake up in the morning <br>
-            Call my friend to complain <br>
-            Do the homework I didn't get to last night <br>
-            Walk to class in the rain <br>
-            Take notes on what is needed <br>
-            Study information and try to retain <br>
-            Go to sleep well after midnight <br>
-        Wake up and do it again </p>
+        <p> Wake up in the morning <br> Call my friend to complain <br>Do the homework I didn't get to last night <br> Walk to class in the rain <br> Take notes on what is needed <br>Study information and try to retain <br> Go to sleep well after midnight <br> Wake up and do it again </p>
     
 
         <h2>This is one of my favorite quotes</h2>
         <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+        <h3> It's Kind of a Funny Story by Ned Vizzini </h3>
         <p id="quote">“I'm smart but not enough--just smart enough to have problems.” </p>
-        <h3> From It's Kind of a Funny Story by Ned Vizzini </h3>
 
 
         <h2>These are more of my favorite books</h2>
         <!-- Include: an unordered list of at least three books, list items should have a border -->
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
         <p> Top three of all time:
-            <ul class="book">
-                <li> A Little Life by Hanya Yanagihara </li>
-                <li> All The Bright Places by Jennifer Niven </li>
-                <li> I'll Give You The Sun by Jandy Nelson </li>
+            <ul>
+                <li class="book"> A Little Life by Hanya Yanagihara </li>
+                <li class="book"> All The Bright Places by Jennifer Niven </li>
+                <li class="book"> I'll Give You The Sun by Jandy Nelson </li>
             </ul>
         </p>
         
@@ -160,12 +154,12 @@
         <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. (Use the CSS in #longest as a reference.) You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
 
         <div id="bargraph">
-            <h4>Length of bars</h4>
-            <p class="bar_label">Longest</p>
+            <h4>How many levels I passed in Candy Crush this weekend</h4>
+            <p class="bar_label">Friday</p>
             <div id="longest"></div>
-            <p class="bar_label">Longer</p>
+            <p class="bar_label">Saturday</p>
             <div id="longer"></div>
-            <p class="bar_label">Long</p>
+            <p class="bar_label">Sunday</p>
             <div id="long"></div>
         </div>
      
